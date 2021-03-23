@@ -706,6 +706,9 @@ ul.main-menu li a:hover{
     color: #fff;
     padding: 0 13px;
 }
+.footer-social ul li a i:hover{
+    color: rgb(241, 64, 64);
+}
 .footer-second h6 {
     position: relative;
     margin-left: 46px;
