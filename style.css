@@ -613,11 +613,10 @@ ul.main-menu li a:hover{
 .team-image{
     position: relative;
 }
-.team-image:hover .team-text h4{
+.team-image:hover .team-text h4 {
     color: rgb(252, 69, 69);
-    letter-spacing: 1.2px;
+    letter-spacing: 0.5px;
 }
-
 .team-image img {
     /* margin-bottom: 26px; */
     position: relative;
@@ -662,6 +661,7 @@ ul.main-menu li a:hover{
     top: -95px;
     transform: scale(1);
     transition: 0.5s ease-in-out;
+    z-index: 999;
 }
 .team-image:hover .author-section{
     transform: scale(0.7);
